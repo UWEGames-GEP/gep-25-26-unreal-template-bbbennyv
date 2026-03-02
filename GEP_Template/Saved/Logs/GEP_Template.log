@@ -4826,3 +4826,134 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.02-13.01.05:611][179]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
 [2026.03.02-13.01.05:611][179]AssetCheck: /Game/ThirdPerson/Input/Actions/IA_Pause Validating asset
 [2026.03.02-13.01.05:612][179]AssetCheck: /Game/UI/Pause Validating asset
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: ================================================
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Total job queries 11,646, among them cache hits 204 (1.75%), DDC hits 958 (8.23%), Duplicates 2,481 (21.30%)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Tracking 8,961 distinct input hashes that result in 8,470 distinct outputs (94.52%)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: RAM used: 6.32 MiB of 3.20 GiB budget. Usage: 0.19%
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Shaders Compiled: 8,003
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Jobs assigned 8,003, completed 8,003 (100%)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Average time worker was idle: 10.22 s
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Time job spent in pending queue: average 246.08 s, longest 519.51 s
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Job execution time: average 5.18 s, max 91.27 s
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Job life time (pending + execution): average 251.26 s, max 519.95
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Shader code size: average 14.357 KiB, min 1.16 KiB, max 330.166 KiB
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 538.03 s
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Jobs were issued in 869 batches (only local compilation was used), average 9.21 jobs/batch
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Average processing rate: 14.87 jobs/sec
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Total thread time: 4,118.644 s
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Total thread preprocess time: 176.325 s
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Percentage time preprocessing: 4.28%
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Effective parallelization: 7.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 21.05 sec, max 66.21 sec, min 1.35 sec)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.78 sec, max 15.78 sec, min 15.78 sec)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.72 sec, max 13.91 sec, min 5.44 sec)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 4.46 sec, max 4.46 sec, min 4.46 sec)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 4.06 sec, max 4.06 sec, min 4.06 sec)
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.03.02-13.02.11:858][504]LogShaderCompilers: Display:                                             FDeferredLightPS - 14.69% of total time (compiled  454 times, average 1.33 sec, max 2.02 sec, min 0.97 sec)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 13.80% of total time (compiled   27 times, average 21.05 sec, max 66.21 sec, min 1.35 sec)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 7.26% of total time (compiled  480 times, average 0.62 sec, max 4.07 sec, min 0.29 sec)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 4.90% of total time (compiled   72 times, average 2.80 sec, max 4.30 sec, min 1.75 sec)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display:                                                FOcclusionRGS - 4.22% of total time (compiled  192 times, average 0.90 sec, max 3.99 sec, min 0.49 sec)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: === Material stats ===
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: Materials Translated:    135
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: Material Translation Only: 0.05 s (41%)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.03.02-13.02.11:859][504]LogShaderCompilers: Display: ================================================
+[2026.03.02-13.03.57:565][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.03.02-13.03.57:602][821]LogStall: Shutdown...
+[2026.03.02-13.03.57:602][821]LogStall: Shutdown complete.
+[2026.03.02-13.03.57:656][821]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.57:656][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.57:752][821]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.57:752][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.57:759][821]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.57:759][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.57:807][821]LogSlate: Window 'GEP_Template - Unreal Editor' being destroyed
+[2026.03.02-13.03.57:974][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.03.02-13.03.57:986][821]Cmd: QUIT_EDITOR
+[2026.03.02-13.03.57:986][822]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.03.02-13.03.57:991][822]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.03.02-13.03.57:991][822]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.03.02-13.03.57:991][822]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.03.02-13.03.57:993][822]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.57:993][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.57:993][822]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2026.03.02-13.03.58:000][822]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.03.02-13.03.58:000][822]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.03.02-13.03.58:003][822]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.58:004][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.58:007][822]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.58:007][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.58:010][822]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.58:010][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.58:013][822]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.03.02-13.03.58:013][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.02-13.03.58:016][822]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.03.02-13.03.58:019][822]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2026.03.02-13.03.58:019][822]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2026.03.02-13.03.58:019][822]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2026.03.02-13.03.58:832][822]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.03.02-13.03.58:832][822]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.03.02-13.03.58:833][822]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2026.03.02-13.03.58:833][822]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.03.02-13.03.58:833][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.03.02-13.03.58:836][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.03.02-13.03.58:848][822]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.03.02-13.03.58:848][822]LogAudio: Display: Audio Device Manager Shutdown
+[2026.03.02-13.03.58:849][822]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.03.02-13.03.58:852][822]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.03.02-13.03.58:852][822]LogExit: Preparing to exit.
+[2026.03.02-13.03.58:886][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.58:889][822]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.03.02-13.03.59:478][822]LogEditorDataStorage: Deinitializing
+[2026.03.02-13.03.59:628][822]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.03.02-13.03.59:651][822]LogExit: Editor shut down
+[2026.03.02-13.03.59:656][822]LogExit: Transaction tracking system shut down
+[2026.03.02-13.03.59:767][822]LogExit: Object subsystem successfully closed.
+[2026.03.02-13.03.59:849][822]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.03.02-13.04.00:281][822]LogMemoryProfiler: Shutdown
+[2026.03.02-13.04.00:281][822]LogNetworkingProfiler: Shutdown
+[2026.03.02-13.04.00:281][822]LoadingProfiler: Shutdown
+[2026.03.02-13.04.00:281][822]LogTimingProfiler: Shutdown
+[2026.03.02-13.04.00:600][822]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.03.02-13.04.00:606][822]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2026.03.02-13.04.00:606][822]LogNFORDenoise: NFORDenoise function shutting down
+[2026.03.02-13.04.00:606][822]RenderDocPlugin: plugin has been unloaded.
+[2026.03.02-13.04.00:627][822]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.03.02-13.04.00:627][822]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0B1977AC-46E8-1F98-3698-AE962CE1551B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=24d7d4244450178dae3326b6b84d8846%7C%7C0a5f4b5d-2401-4aed-842c-b00600bf715d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.03.02-13.04.01:184][822]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.03.02-13.04.01:184][822]LogXGEController: Cleaning working directory: C:/Users/b2-vuyyuru/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.03.02-13.04.01:187][822]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.03.02-13.04.01:187][822]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.03.02-13.04.01:187][822]LogPakFile: Destroying PakPlatformFile
+[2026.03.02-13.04.01:451][822]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.03.02-13.04.01:505][822]LogExit: Exiting.
+[2026.03.02-13.04.01:540][822]Log file closed, 03/02/26 13:04:01
