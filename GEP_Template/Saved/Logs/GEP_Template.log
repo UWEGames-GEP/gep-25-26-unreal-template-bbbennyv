@@ -9486,3 +9486,7 @@ Make sure '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCh
 [2026.04.08-13.06.32:406][129]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.08-13.06.32:408][129]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.08-13.06.32:408][129]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-13.06.34:330][129]LogEditorDataStorage: Deinitializing
+[2026.04.08-13.06.37:632][129]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.08-13.06.39:110][129]LogExit: Editor shut down
+[2026.04.08-13.06.39:304][129]LogExit: Transaction tracking system shut down
