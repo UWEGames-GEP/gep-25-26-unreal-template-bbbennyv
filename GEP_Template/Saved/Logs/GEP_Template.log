@@ -4911,3 +4911,8 @@ Make sure '/Game/Inventory/InventorySystem.InventorySystem_C' has been compiled 
 [2026.04.08-22.06.18:934][632]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.08-22.06.18:934][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.08-22.06.20:890][632]LogEditorDataStorage: Deinitializing
+[2026.04.08-22.06.24:428][632]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.08-22.06.26:121][632]LogExit: Editor shut down
+[2026.04.08-22.06.26:355][632]LogExit: Transaction tracking system shut down
+[2026.04.08-22.06.33:576][632]LogExit: Object subsystem successfully closed.
+[2026.04.08-22.06.33:706][632]LogShaderCompilers: Display: Shaders left to compile 0
