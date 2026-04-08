@@ -1,2 +1,6 @@
-2026/04/07-22:50:02.630 22ddc Creating DB C:/Users/benvu/OneDrive/Desktop/Code/gep-25-26-unreal-template-bbbennyv/GEP_Template/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2026/04/07-22:50:02.691 22ddc Reusing MANIFEST C:/Users/benvu/OneDrive/Desktop/Code/gep-25-26-unreal-template-bbbennyv/GEP_Template/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/04/08-11:38:29.901 2e2f0 Reusing MANIFEST C:/Users/benvu/OneDrive/Desktop/Code/gep-25-26-unreal-template-bbbennyv/GEP_Template/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/04/08-11:38:29.930 2e2f0 Recovering log #3
+2026/04/08-11:38:29.932 2e2f0 Reusing old log C:/Users/benvu/OneDrive/Desktop/Code/gep-25-26-unreal-template-bbbennyv/GEP_Template/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2026/04/08-11:45:33.640 315b4 Level-0 table #5: started
+2026/04/08-11:45:33.664 315b4 Level-0 table #5: 26178 bytes OK
+2026/04/08-11:45:33.674 315b4 Delete type=0 #3
