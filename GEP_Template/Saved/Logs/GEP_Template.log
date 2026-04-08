@@ -6861,3 +6861,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.08-19.07.30:275][ 46]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.08-19.07.30:275][ 46]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.08-19.07.30:275][ 46]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-19.07.31:858][ 46]LogEditorDataStorage: Deinitializing
+[2026.04.08-19.07.36:125][ 46]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.08-19.07.37:185][ 46]LogExit: Editor shut down
+[2026.04.08-19.07.37:268][ 46]LogExit: Transaction tracking system shut down
