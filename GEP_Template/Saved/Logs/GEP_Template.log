@@ -6765,3 +6765,17 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.08-19.05.24:236][845]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
 [2026.04.08-19.05.27:536][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
 [2026.04.08-19.05.27:542][846]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2026.04.08-19.06.23:164][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2026.04.08-19.06.23:788][ 45]LogStall: Shutdown...
+[2026.04.08-19.06.23:794][ 45]LogStall: Shutdown complete.
+[2026.04.08-19.06.27:194][ 45]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-19.06.27:194][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-19.06.34:557][ 45]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-19.06.34:558][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-19.06.41:012][ 45]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-19.06.41:012][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-19.06.41:075][ 45]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-19.06.41:075][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-19.06.44:700][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.04.08-19.06.44:702][ 45]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-19.06.44:702][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
