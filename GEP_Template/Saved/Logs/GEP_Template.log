@@ -4596,3 +4596,318 @@ Make sure '/Game/Inventory/InventorySystem.InventorySystem_C' has been compiled 
 [2026.04.08-21.58.35:575][834]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10055.926758, Update Interval: 314.117859
 [2026.04.08-21.59.42:657][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
 [2026.04.08-22.00.54:128][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.04.08-22.01.19:061][980]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.08-22.01.19:120][980]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.04.08-22.01.19:120][980]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.04.08-22.01.19:134][980]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 13.692 ms (total: 290.044 ms)
+[2026.04.08-22.01.19:135][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.08-22.01.19:142][980]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.08-22.01.19:162][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019820s)
+[2026.04.08-22.01.19:163][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.020031s)
+[2026.04.08-22.01.19:257][980]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2026.04.08-22.01.19:264][980]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.04.08-22.01.19:270][980]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.08-22.01.19:270][980]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.08-22.01.19:270][980]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.08-22.01.19:270][980]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.08-22.01.19:277][980]LogWorldPartition: Display: WorldPartition initialize took 6.728 ms (total: 1.11 sec)
+[2026.04.08-22.01.19:277][980]LogPlayLevel: PIE: World Init took: (0.012849s)
+[2026.04.08-22.01.19:281][980]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2026.04.08-22.01.19:281][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.08-22.01.19:282][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.08-22.01.19:282][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.08-22.01.19:282][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.08-22.01.19:282][980]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.08-22.01.19:282][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.08-22.01.19:282][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.08-22.01.19:282][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.08-22.01.19:282][980]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.08-22.01.19:282][980]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.08-22.01.19:282][980]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.08-22.01.19:295][980]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.08-22.01.19:563][980]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.04.08-22.01.19:564][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.08-22.01.19:565][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.08-22.01.19:565][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.08-22.01.19:567][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2026.04.08-22.01.19:567][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2026.04.08-22.01.19:572][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2026.04.08-22.01.19:572][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2026.04.08-22.01.19:572][980]LogInit: FAudioDevice initialized with ID 28.
+[2026.04.08-22.01.19:572][980]LogAudio: Display: Audio Device (ID: 28) registered with world 'ThirdPersonMap'.
+[2026.04.08-22.01.19:572][980]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2026.04.08-22.01.19:578][980]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.08-22.01.19:585][980]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2026.04.08-23.01.19
+[2026.04.08-22.01.19:586][980]LogWorld: Bringing up level for play took: 0.005261
+[2026.04.08-22.01.19:591][980]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2026.04.08-22.01.19:606][980]PIE: Server logged in
+[2026.04.08-22.01.19:609][980]PIE: Play in editor total start time 0.49 seconds.
+[2026.04.08-22.01.22:490][ 41]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.22:697][ 44]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.23:352][ 59]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.25:163][ 91]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.25:202][ 91]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.01.25:202][ 91]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.04.08-22.01.27:130][132]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.27:176][132]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.28:940][170]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.30:533][201]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.01.30:534][201]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.01.31:627][223]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.32:521][241]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.35:714][298]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.36:443][312]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.36:488][312]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.01.36:488][312]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.08-22.01.38:325][353]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.38:350][353]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.38:395][353]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.38:412][353]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.39:545][375]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.39:568][375]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.39:611][375]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.39:628][375]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.40:672][396]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.40:695][396]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.40:738][396]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.40:751][396]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.42:790][455]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.42:803][455]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.43:625][483]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.01.43:625][483]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.01.44:224][503]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.46:183][558]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.47:786][609]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.48:664][640]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.48:693][640]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.01.48:693][640]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.08-22.01.50:383][697]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.50:394][697]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.50:406][697]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.53:264][787]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.53:273][787]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.53:281][787]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.57:217][890]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.01.57:217][890]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.01.57:908][906]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.58:741][928]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.01.59:523][949]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.01.59:523][949]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.08-22.01.59:523][949]LogBlueprintUserMessages: [PlayerInvGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.01.59:548][949]LogBlueprintUserMessages: [ChestInvGrid] BP_Chest.ChestInventorySystem
+[2026.04.08-22.01.59:558][949]LogBlueprintUserMessages: [WBP_ChestMenu_C_0] Done
+[2026.04.08-22.02.04:153][ 64]LogBlueprintUserMessages: [PlayerInvGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.04:178][ 64]LogBlueprintUserMessages: [ChestInvGrid] BP_Chest.ChestInventorySystem
+[2026.04.08-22.02.10:674][249]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.02.10:675][249]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.02.12:122][284]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.12:153][284]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.02.12:154][284]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.08-22.02.14:096][341]LogBlueprintUserMessages: [PlayerInvGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.14:109][341]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.14:996][368]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.02.14:996][368]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.02.20:716][522]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.02.21:746][551]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.02.22:802][581]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.02.23:376][598]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.23:412][598]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.02.23:412][598]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.08-22.02.25:024][645]LogBlueprintUserMessages: [InventorySystem] EATEN
+[2026.04.08-22.02.25:024][645]LogBlueprintUserMessages: [PlayerInvGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.25:044][645]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.25:064][645]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.02.28:441][741]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.02.28:441][741]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.02.52:369][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.08-22.02.52:369][384]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.08-22.02.52:370][384]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.02.52:372][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.02.52:373][384]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.04.08-22.02.52:392][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.08-22.02.52:412][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.02.52:487][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.08-22.02.52:487][384]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2026.04.08-22.02.52:487][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2026.04.08-22.02.52:493][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2026.04.08-22.02.52:521][384]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2026.04.08-22.02.52:577][385]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2026.04.08-22.02.53:537][410]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2026.04.08-22.03.01:868][659]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.08-22.03.01:916][659]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.04.08-22.03.01:916][659]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.04.08-22.03.01:927][659]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 12.144 ms (total: 302.189 ms)
+[2026.04.08-22.03.01:929][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.08-22.03.01:929][659]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.08-22.03.01:953][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023348s)
+[2026.04.08-22.03.01:953][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.023505s)
+[2026.04.08-22.03.02:042][659]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2026.04.08-22.03.02:049][659]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.04.08-22.03.02:054][659]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.08-22.03.02:054][659]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.08-22.03.02:054][659]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.08-22.03.02:054][659]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.08-22.03.02:060][659]LogWorldPartition: Display: WorldPartition initialize took 6.605 ms (total: 1.12 sec)
+[2026.04.08-22.03.02:060][659]LogPlayLevel: PIE: World Init took: (0.011424s)
+[2026.04.08-22.03.02:064][659]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.08-22.03.02:064][659]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.08-22.03.02:064][659]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.08-22.03.02:064][659]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.08-22.03.02:064][659]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.08-22.03.02:064][659]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.08-22.03.02:073][659]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.08-22.03.02:278][659]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2026.04.08-22.03.02:278][659]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.08-22.03.02:278][659]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.08-22.03.02:278][659]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.08-22.03.02:279][659]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2026.04.08-22.03.02:279][659]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2026.04.08-22.03.02:285][659]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2026.04.08-22.03.02:285][659]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2026.04.08-22.03.02:285][659]LogInit: FAudioDevice initialized with ID 29.
+[2026.04.08-22.03.02:285][659]LogAudio: Display: Audio Device (ID: 29) registered with world 'ThirdPersonMap'.
+[2026.04.08-22.03.02:285][659]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2026.04.08-22.03.02:289][659]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.08-22.03.02:292][659]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2026.04.08-23.03.02
+[2026.04.08-22.03.02:292][659]LogWorld: Bringing up level for play took: 0.002413
+[2026.04.08-22.03.02:297][659]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2026.04.08-22.03.02:305][659]PIE: Server logged in
+[2026.04.08-22.03.02:306][659]PIE: Play in editor total start time 0.392 seconds.
+[2026.04.08-22.03.03:502][684]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.03.03:690][690]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.03.03:839][694]LogBlueprintUserMessages: [InventorySystem] Hello
+[2026.04.08-22.03.04:501][713]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.04:535][713]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.03.04:535][713]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.04.08-22.03.06:581][766]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.06:614][766]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.08:209][807]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.08:244][807]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.10:134][859]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.10:896][879]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.03.10:896][879]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.03.15:733][998]LogBlueprintUserMessages: [WBP_InventoryGrid] BP_ThirdPersonCharacter_C_0.InventorySystem
+[2026.04.08-22.03.15:764][998]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.08-22.03.15:764][998]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.04.08-22.03.16:794][ 28]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.04.08-22.03.16:794][ 28]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.04.08-22.03.17:390][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.08-22.03.17:390][ 42]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.04.08-22.03.17:390][ 42]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.03.17:392][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.03.17:392][ 42]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.04.08-22.03.17:419][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.08-22.03.17:434][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.03.17:511][ 42]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.08-22.03.17:511][ 42]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2026.04.08-22.03.17:511][ 42]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2026.04.08-22.03.17:517][ 42]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2026.04.08-22.03.17:540][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.08-22.03.17:551][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2026.04.08-22.03.17:614][ 43]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2026.04.08-22.03.18:730][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2026.04.08-22.04.37:038][423]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10417.732422
+[2026.04.08-22.04.37:272][430]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.08-22.04.37:272][430]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10417.933594, Update Interval: 330.874359
+[2026.04.08-22.06.07:478][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2026.04.08-22.06.07:801][631]LogStall: Shutdown...
+[2026.04.08-22.06.07:802][631]LogStall: Shutdown complete.
+[2026.04.08-22.06.08:287][631]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.08:288][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.08:724][631]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.08:724][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.09:090][631]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.09:090][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.09:106][631]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.09:106][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.09:331][631]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.09:331][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.09:807][631]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.09:807][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.09:820][631]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.09:820][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.10:036][631]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.10:036][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.10:053][631]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.10:053][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.10:332][631]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.10:332][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.10:572][631]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.10:572][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.10:589][631]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.10:589][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.10:753][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.04.08-22.06.10:753][631]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.10:753][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.11:347][631]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.11:349][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.11:762][631]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.11:762][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.11:782][631]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.11:782][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.12:183][631]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.12:183][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.12:206][631]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.12:207][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.12:576][631]LogSlate: Window 'GEP_Template - Unreal Editor' being destroyed
+[2026.04.08-22.06.16:473][631]LogUObjectHash: Compacting FUObjectHashTables data took  17.44ms
+[2026.04.08-22.06.16:651][631]Cmd: QUIT_EDITOR
+[2026.04.08-22.06.16:654][631]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.04.08-22.06.16:735][632]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.04.08-22.06.16:745][632]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.04.08-22.06.16:745][632]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.04.08-22.06.16:779][632]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.16:779][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.16:779][632]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2026.04.08-22.06.17:011][632]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.04.08-22.06.17:087][632]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.04.08-22.06.17:267][632]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.17:268][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.17:294][632]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.17:294][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.17:318][632]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2026.04.08-22.06.17:319][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.08-22.06.17:390][632]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.04.08-22.06.17:483][632]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2026.04.08-22.06.17:483][632]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2026.04.08-22.06.17:483][632]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2026.04.08-22.06.17:941][632]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.04.08-22.06.17:942][632]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.04.08-22.06.17:942][632]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2026.04.08-22.06.17:942][632]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.04.08-22.06.17:945][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.04.08-22.06.17:969][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2026.04.08-22.06.18:055][632]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.04.08-22.06.18:055][632]LogAudio: Display: Audio Device Manager Shutdown
+[2026.04.08-22.06.18:060][632]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.04.08-22.06.18:097][632]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.04.08-22.06.18:099][632]LogExit: Preparing to exit.
+[2026.04.08-22.06.18:850][632]LogUObjectHash: Compacting FUObjectHashTables data took   9.61ms
+[2026.04.08-22.06.18:871][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:874][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:916][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:923][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:924][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:924][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:925][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:925][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:925][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:925][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:926][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:926][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:927][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:927][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:928][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:928][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:928][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:928][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:932][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:934][632]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.18:934][632]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.08-22.06.20:890][632]LogEditorDataStorage: Deinitializing
