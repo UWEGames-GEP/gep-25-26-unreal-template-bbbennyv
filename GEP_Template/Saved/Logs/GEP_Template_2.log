@@ -2854,3 +2854,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.14-16.27.21:869][512]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2026.04.14-16.27.23:708][512]LogEditorDataStorage: Deinitializing
 [2026.04.14-16.27.25:780][512]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.14-16.27.26:198][512]LogExit: Editor shut down
+[2026.04.14-16.27.26:254][512]LogExit: Transaction tracking system shut down
+[2026.04.14-16.27.31:632][512]LogExit: Object subsystem successfully closed.
+[2026.04.14-16.27.31:714][512]LogShaderCompilers: Display: Shaders left to compile 0
