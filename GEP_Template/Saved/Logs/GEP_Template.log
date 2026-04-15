@@ -1640,3 +1640,9 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.15-12.51.20:323][248]LogNFORDenoise: NFORDenoise function shutting down
 [2026.04.15-12.51.20:341][248]RenderDocPlugin: plugin has been unloaded.
 [2026.04.15-12.51.20:376][248]LogXGEController: Cleaning working directory: C:/Users/benvu/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.04.15-12.51.20:477][248]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.04.15-12.51.20:477][248]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.04.15-12.51.20:479][248]LogPakFile: Destroying PakPlatformFile
+[2026.04.15-12.51.22:498][248]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.04.15-12.51.22:689][248]LogExit: Exiting.
+[2026.04.15-12.51.22:795][248]Log file closed, 04/15/26 13:51:22
